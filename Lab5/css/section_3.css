@@ -1,0 +1,70 @@
+@charset "utf-8";
+.s3 {
+    color: black;
+    margin-top: 4%;
+    margin-left: 6%;
+    position: relative;
+
+}
+.h21{
+color: rgb(0, 0, 0);
+width: 30%;
+font: bold 64px "Cairo", Sans-Serif;
+padding: 14px;
+margin-top: 10%;
+line-height: 94px;
+margin-bottom: 3%;
+margin-left: -1%;
+}
+.s3>p{
+    color: black;
+    width: 25%;
+    font:  43px "Cairo", Sans-Serif;
+    padding: 8px;
+    line-height: 28px;
+    /* margin-top: -60px; */
+}
+
+/* .border{
+    position: relative;
+    margin-top: -60%;
+    width: 200px;
+    height: 300px;
+    border: 65px;
+    background-color: rgb(104, 31, 31);
+    border-color: rgb(0, 0, 0);
+} */
+
+.thumb-div  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    display: flex;
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
+.pos1 {
+    margin-left: 51%;
+    margin-top: -75%;
+}
+
+.pos1 p {
+    margin-top: 5%;
+    margin-left: -1%;
+    color: black;
+    width: 90%;
+    font:  30px "Cairo", Sans-Serif;
+    padding: 8px;
+    line-height: 48px;
+}
+
+.s3>li{
+    margin-top: 3%;
+    margin-left: 51.1%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11.059px 19.7483px;
+    gap: 7.9px;
+    background: #171717;
+}
