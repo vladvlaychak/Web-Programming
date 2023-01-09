@@ -1,0 +1,51 @@
+div#tekst_sverhu_kartinki {
+    margin-left: 4%; 
+    margin-right: auto;
+    margin-top: 2%;
+    width:1191.83px;
+    height:946.63px;
+}
+.s1{
+    color: rgb(5, 5, 5);
+
+}
+.t1 {
+position: relative;
+bottom: 70%;
+width: 70%;
+color: #ffffff;
+line-height: 94px;
+margin-left: 15%;
+}
+.t1 h2 {
+line-height: 94px;
+font:  74px "Cairo", Sans-Serif;
+/* font:  80px/44px "Cairo", Sans-Serif;       */
+padding: 8px;
+
+}
+.t1 p {
+    width: 60%;
+    font:  34px "Cairo", Sans-Serif;
+    padding: 8px;
+    margin-top: -60px;
+    }
+.t2{
+position: absolute;
+bottom: 10%;
+color: #ffffff;
+}
+.t2 p {
+font: bold 14px/44px "Segoe UI", Sans-Serif;      
+padding: 8px;
+}
+.l1{
+    margin-top: 5%;
+    margin-left: 1%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11.059px 19.7483px;
+    gap: 7.9px;
+    background: #171717;
+}
