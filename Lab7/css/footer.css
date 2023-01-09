@@ -1,0 +1,110 @@
+.footer {
+    margin: 0;
+    padding: 0;
+    background-color: #FCFCFC;
+    display: 100%;
+    flex-wrap: wrap;
+    margin-left: 9%;
+
+    font-size: 100px; /* Размер шрифта */
+    width: 83.5%;
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+    border-left-width: 90%;
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+
+
+}
+
+.footer>.main-block {
+    /* padding: 114px 0px;
+    /* padding-left: 176px; */
+    margin-top: 2%;
+    padding-right: 13px; 
+    display: flex;
+    flex-wrap: nowrap;
+    /* column-gap: 100px; */
+}
+
+.footer title,
+p {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer>.main-block>.owner {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 34px;
+}
+
+.footer>.main-block>.owner>.title {
+    font-size: 26px;
+    font-weight: 770px;
+    color: #2C3847;
+}
+
+.footer>.main-block>.owner>.more {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer>.main-block>.owner>.more>* {
+    font-size: 16px;
+    font-weight: auto;
+    color: #657582;
+}
+
+.footer>.main-block>.owner>.more>.col1{
+    font-weight: 100px;
+    
+}
+.footer>.main-block>.column {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.footer>.main-block>.column>.title {
+    font-size: 22px;
+    font-weight: 770px;
+    color: #2C3847;
+}
+
+.footer>.main-block>.column>.more {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer>.main-block>.column>.more>* {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 760px;
+    text-align: start;
+    color: #657582;
+    cursor: pointer;
+}
+
+.footer>.main-block>.column>.more>*:hover {
+    color: blue;
+}
+
+.footer>.bottom-block {
+    height: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff 90%);
+}
+
+.footer>.bottom-block>p {
+    margin: auto 0;
+    font-size: 12px;
+    font-weight: 760px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
